@@ -35,9 +35,9 @@ cumprimentar('amanda')
 function soma(a, b) { 
  return a + b; 
 } 
-// Chamando a função e armazenando o retorno em uma variável 
+
 let resultado = soma(5, 3); 
-// Exibindo o resultado no console 
+
 console.log("O resultado da soma é:", resultado);
 
 
@@ -53,6 +53,24 @@ pessoa["idade"] = 26;
 // remover
 delete pessoa.profissao;
 
-// exibindo no console o resultado
+
 console.log(pessoa);
 // Resultado: { nome: 'Ana', idade: 26 }
+
+
+
+const somar = (a, b) => a + b;
+console.log("Soma:", somar(3, 4)); // 7
+
+
+const parOuImpar = n => n % 2 === 0 ? 'Par' : 'Ímpar';
+console.log("Par ou Ímpar:", parOuImpar(7)); // Ímpar
+
+const saudacao = nome => {
+  return `Olá, ${nome}!`;
+};
+console.log(saudacao("Lucas")); // Olá, Lucas!
+
+
+const mostrarMensagem = () => "Sem parâmetros aqui!";
+console.log(mostrarMensagem()); // "Sem parâmetros aqui!"
