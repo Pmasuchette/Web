@@ -74,3 +74,11 @@ console.log(saudacao("Lucas")); // Olá, Lucas!
 
 const mostrarMensagem = () => "Sem parâmetros aqui!";
 console.log(mostrarMensagem()); // "Sem parâmetros aqui!"
+
+// função sem parâmetro
+function mostrarHoraLocal () {
+    let hora = new Date()
+    console.log(`Hora atual: ${hora.toLocaleTimeString()}`)
+}
+
+mostrarHoraLocal()
