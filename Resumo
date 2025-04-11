@@ -1,3 +1,19 @@
+function MostrarHora(){
+  let Hora = new Date()
+  console.log(`Agora são : ${Hora.toLocaleTimeString()}`)
+}
+MostrarHora()
+
+function mensagem(){
+  console.log('Ola, como vai?')
+}
+mensagem()
+
+function cumprimentar(nome){
+  console.log(`Ola ${nome}`)
+}
+cumprimentar('amanda')
+
 function soma(a, b) { 
  return a + b; 
 } 
