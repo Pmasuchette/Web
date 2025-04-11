@@ -11,6 +11,11 @@ console.log('100' / '2');
 console.log('7.1');
 console.log('6,5');
 
+function parOuImpar(numero) {
+  return numero % 2 === 0 ? 'Par' : 'Ímpar';
+}
+console.log(parOuImpar(4));
+
 function MostrarHora(){
   let Hora = new Date()
   console.log(`Agora são : ${Hora.toLocaleTimeString()}`)
