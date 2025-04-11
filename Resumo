@@ -1,3 +1,16 @@
+console.log('Conversão de tipos');
+
+console.log('ano ' + 2025);
+console.log('2' + '3');
+//conversão explícita
+console.log(parseInt('7') + parseInt('2'));
+
+//conversão implícita
+console.log('100' / '2');
+
+console.log('7.1');
+console.log('6,5');
+
 function MostrarHora(){
   let Hora = new Date()
   console.log(`Agora são : ${Hora.toLocaleTimeString()}`)
